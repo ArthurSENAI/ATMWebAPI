@@ -1,5 +1,6 @@
 ﻿using ATMWebAPI.Model;
 using ATMWebAPI.ORM;
+using ATMWebAPI.Controllers;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -30,7 +31,7 @@ namespace ATMWebAPI.Repositorio
             {
                 Nome = cliente.Nome,
                 Telefone = cliente.Telefone,
-                Documento = documentoBytes // Armazena a foto na entidade
+                DocumentoIdentificacao = documentoBytes // Armazena a foto na entidade
             };
 
             // Adiciona a entidade ao contexto
@@ -95,7 +96,7 @@ namespace ATMWebAPI.Repositorio
                 Id = item.Id,
                 Nome = item.Nome,
                 Telefone = item.Telefone,
-                Documento = item.Documento // Mantém o campo Documento como byte[]
+                Documento = item.DocumentoIdentificacao // Mantém o campo Documento como byte[]
             };
 
             return cliente; // Retorna o cliente encontrado
@@ -118,7 +119,7 @@ namespace ATMWebAPI.Repositorio
                     using (var memoryStream = new MemoryStream())
                     {
                         documento.CopyTo(memoryStream);
-                        tbCliente.Documento = memoryStream.ToArray(); // Atualiza a foto na entidade
+                        tbCliente.DocumentoIdentificacao = memoryStream.ToArray(); // Atualiza a foto na entidade
                     }
                 }
 

@@ -134,3 +134,6 @@ C:\Users\Aluno Noite\Desktop\ATMWebAPI\obj\Debug\net8.0\refint\ATMWebAPI.dll
 C:\Users\Aluno Noite\Desktop\ATMWebAPI\obj\Debug\net8.0\ATMWebAPI.pdb
 C:\Users\Aluno Noite\Desktop\ATMWebAPI\obj\Debug\net8.0\ATMWebAPI.genruntimeconfig.cache
 C:\Users\Aluno Noite\Desktop\ATMWebAPI\obj\Debug\net8.0\ref\ATMWebAPI.dll
+C:\Users\Aluno Noite\Desktop\ATMWebAPI\obj\Debug\net8.0\ATMWebAPI.sourcelink.json
+C:\Users\Aluno Noite\Desktop\ATMWebAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Aluno Noite\Desktop\ATMWebAPI\bin\Debug\net8.0\Microsoft.Bcl.TimeProvider.dll

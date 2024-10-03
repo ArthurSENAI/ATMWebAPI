@@ -3,7 +3,7 @@
     public class ClienteDto
     {
         public string Nome { get; set; }
-        public int Idade { get; set; }
+        public string Telefone { get; set; }
         public IFormFile Documento { get; set; }
     }
 }

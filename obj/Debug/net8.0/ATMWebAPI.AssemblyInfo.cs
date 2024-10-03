@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ATMWebAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4124feb8015f72e4c4ccc274cf2e99106b11415a")]
 [assembly: System.Reflection.AssemblyProductAttribute("ATMWebAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ATMWebAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
